@@ -31,6 +31,34 @@ export const ImageBlock = {
                     value: 'fullWidth'
                 },
             ]
+        },
+        {
+            name: 'theme',
+            label: 'Theme',
+            type: 'select',
+            required: true,
+            options: [
+                {
+                    label: 'Dark',
+                    value: 'dark'
+                },
+                {
+                    label: 'Light',
+                    value: 'light'
+                },
+                {
+                    label: 'Top Dark & Rest White',
+                    value: 'oneThird'
+                },
+                {
+                    label: 'Half Dark & Half White',
+                    value: 'half'
+                },
+                {
+                    label: 'Two Thirds Dark and Bottom White',
+                    value: 'twoThirds'
+                },
+            ]
         }
     ],
 }

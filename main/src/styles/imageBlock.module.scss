@@ -1,7 +1,6 @@
 @use '@porsche-design-system/components-react/styles' as *;
 
-.background {
-    background: linear-gradient(to bottom, black 50%, white 50%);
+.container {
     min-height: 80vh;
     display: flex;
     align-items: center;

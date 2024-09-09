@@ -17,6 +17,7 @@ export const Button = {
             label: 'Button Link (Page Slug)',
             type: 'text',
             required: true,
+            localized: true,
         },
         {
             name: 'icon',
