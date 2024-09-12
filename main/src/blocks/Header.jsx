@@ -1,7 +1,6 @@
 import style from '../styles/header.module.scss'
 import React from 'react'
 import Image from 'next/image'
-import Navigation from './Navigation'
 
 export default function Header({headingFirstLine, headingSecondLine, headingSize, svg, background}) {
     return (

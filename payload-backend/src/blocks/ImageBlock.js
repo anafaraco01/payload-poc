@@ -55,7 +55,7 @@ export const ImageBlock = {
                     value: 'half'
                 },
                 {
-                    label: 'Two Thirds Dark and Bottom White',
+                    label: 'Two Thirds Dark & Bottom White',
                     value: 'twoThirds'
                 },
             ]

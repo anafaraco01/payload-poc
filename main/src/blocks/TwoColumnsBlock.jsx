@@ -31,7 +31,7 @@ export default function TwoColumnsBlock({ lightHeading, boldHeading, paragraph1,
           <p className={commonStyle.text}>{paragraph1}</p>
           <p className={commonStyle.text}>{paragraph2}</p>
           {buttonLabel && (
-            <PButton className={style.button} theme="dark" variant="secondary" icon={icon} onClick={handleClick}>{buttonLabel}</PButton>
+            <PButton className={style.button} theme={theme} variant="secondary" icon={icon} onClick={handleClick}>{buttonLabel}</PButton>
           )}
         </div>
         <div className={style.columnTwo}>

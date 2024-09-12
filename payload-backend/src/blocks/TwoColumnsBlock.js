@@ -49,11 +49,11 @@ export const TwoColumnsBlock = {
             options: [
                 {
                     label: 'None',
-                    value: ''
+                    value: 'none'
                 },
                 {
                     label: 'Arrow Right',
-                    value: 'arrow-right'
+                    value: 'arrow-head-right'
                 },
             ]
         },
