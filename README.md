@@ -14,5 +14,7 @@ Then, go to main, create the component inside blocks folder and add the componen
 - User Roles 2
 - Versioning (Draft and Published)
 - Pages
+- Default columns Displayed
+- Block images
 
 Created by: Ana Rivera Faraco :)

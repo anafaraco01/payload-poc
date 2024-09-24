@@ -1,5 +1,6 @@
 export const ImageBlock = {
     slug: 'imageBlock',
+    imageURL: '/../media/imageBlock.png',
     labels: {
         singular: 'Image Block',
         plural: 'Image Blocks',

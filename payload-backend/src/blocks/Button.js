@@ -1,5 +1,6 @@
 export const Button = {
     slug: 'button',
+    imageURL: '/../media/button.png',
     labels: {
         singular: 'Button',
         plural: 'Buttons',

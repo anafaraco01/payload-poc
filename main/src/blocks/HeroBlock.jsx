@@ -1,8 +1,8 @@
-import style from '../styles/header.module.scss'
+import style from '../styles/heroBlock.module.scss'
 import React from 'react'
 import Image from 'next/image'
 
-export default function Header({headingFirstLine, headingSecondLine, headingSize, svg, background}) {
+export default function HeroBlock({headingFirstLine, headingSecondLine, headingSize, svg, background}) {
     return (
     
     <div className={style.container}>

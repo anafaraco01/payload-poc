@@ -1,8 +1,9 @@
-export const Header = {
-    slug: 'header',
+export const HeroBlock = {
+    slug: 'heroBlock',
+    imageURL: '/../media/heroBlock.png',
     labels: {
-        singular: 'Header',
-        plural: 'Headers',
+        singular: 'Hero Block',
+        plural: 'Hero Blocks',
     },
     fields: [
         {

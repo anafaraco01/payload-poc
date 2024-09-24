@@ -1,4 +1,4 @@
-import Header from "./Header";
+import HeroBlock from "./HeroBlock";
 import SimpleRichText from "./SimpleRichText";
 import TwoColumnsBlock from "./TwoColumnsBlock";
 import ContentBlock from "./ContentBlock";
@@ -8,7 +8,7 @@ import ImageBlock from "./ImageBlock"
 export const blocks = {
     twoColumnsBlock: TwoColumnsBlock,
     simpleRichText: SimpleRichText,
-    header: Header,
+    heroBlock: HeroBlock,
     contentBlock: ContentBlock,
     button: Button,
     imageBlock: ImageBlock,

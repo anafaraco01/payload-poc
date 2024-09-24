@@ -1,5 +1,6 @@
 export const TwoColumnsBlock = {
     slug: 'twoColumnsBlock',
+    imageURL: '/../media/twoColumnsBlock.png',
     labels: {
         singular: 'Two Column Block',
         plural: 'Two Column Blocks',

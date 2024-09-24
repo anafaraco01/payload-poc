@@ -11,9 +11,6 @@ export const Users: CollectionConfig = {
     // keeps performance fast.
     depth: 0,
   },
-  admin: {
-    useAsTitle: 'email',
-  },
   access: {
     // Only admins can create users
     create: isAdmin,
@@ -64,4 +61,21 @@ export const Users: CollectionConfig = {
       ]
     }
   ],
+  hooks: {
+    afterRead: [
+      async ({ doc }) => {
+        doc.fullName = `${doc.firstName} ${doc.lastName}`;  // Create fullName dynamically
+        return doc;
+      },
+    ],
+  },
+  admin: {
+    useAsTitle: 'fullName', // Use the fullName virtual field
+    defaultColumns: [
+      'firstName',      
+      'lastName',
+      'email',
+      'roles',   
+    ],
+  },
 };
